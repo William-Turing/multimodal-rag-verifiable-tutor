@@ -1,0 +1,75 @@
+/* Academic research workspace · native Streamlit controls remain keyboard accessible. */
+:root { color-scheme: light; }
+.stApp { background: #f6f8fb; color: #16283f; }
+.block-container { max-width: 1540px !important; padding: 2rem 2.9rem 3.5rem !important; }
+[data-testid="stHeader"] { background: rgba(246,248,251,.95); border-bottom: 1px solid #e3eaf1; }
+[data-testid="stSidebar"] { background: #f0f4f8; border-right: 1px solid #dce5ed; }
+[data-testid="stSidebar"] h4 { font-size: .95rem; color: #1b3957; }
+[data-testid="stSidebar"] [data-testid="stCaptionContainer"] { color: #61738a; }
+.sidebar-brand { margin-top: .6rem; color: #123955; letter-spacing: .08em; font-size: .9rem; font-weight: 800; }
+.sidebar-brand span { color: #257a8e; }
+.sidebar-note { padding: 1.1rem .6rem; margin-top: 2.3rem; color: #718298; font-size: .74rem; line-height: 1.8; letter-spacing: .02em; }
+.masthead { padding: 1.15rem 0 .7rem; }
+.masthead-top { display: flex; gap: .62rem; align-items: center; }
+.masthead-mark { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 8px; background: #dfeef0; color: #207487; font-size: 1.25rem; }
+.eyebrow { font-size: .69rem; font-weight: 800; color: #537087; letter-spacing: .135em; }
+.masthead-title { margin-top: .72rem; font-size: clamp(2.1rem, 3vw, 3.35rem); line-height: 1.13; letter-spacing: -.055em; font-weight: 780; color: #122c43; }
+.title-period { color: #208398; }
+.masthead-description { margin: .78rem 0 .6rem; max-width: 770px; line-height: 1.65; font-size: .94rem; color: #62758c; }
+.status-row { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem; margin: .55rem 0 1.1rem; }
+.mode-pill { display: inline-block; border: 1px solid #c9e2e5; background: #ebf8f9; color: #1b6577; border-radius: 99px; padding: .28rem .74rem; letter-spacing: .025em; font-weight: 750; font-size: .72rem; }
+.mode-live { background: #edf5ff; color: #275887; border-color: #c9dffa; }
+.status-secondary { font-size: .8rem; color: #8492a5; }
+.workflow-step { display:flex; gap:.8rem; min-height:66px; padding: .95rem 1.05rem; background:#fff; border:1px solid #e2e9f0; border-radius:12px; box-shadow:0 1px 2px rgba(22,49,76,.025); align-items:center; }
+.workflow-number { font-size: .84rem; font-weight: 800; color:#2c7b91; padding:.38rem .5rem; border-radius:8px; background:#eff6f9; }
+.workflow-copy { display:flex; flex-direction:column; gap:.18rem; }
+.workflow-copy strong { color:#1f3853; font-size:.72rem; letter-spacing:.075em; }
+.workflow-copy small { color:#73839a; font-size:.76rem; }
+.pane-heading { padding: 1.25rem 0 .95rem; }
+.pane-kicker { font-size:.7rem; letter-spacing:.14em; font-weight:800; color:#37778b; }
+.pane-heading h2 { margin:.25rem 0 .15rem; font-size:1.45rem; color:#1b314a; letter-spacing:-.035em; }
+.pane-heading p { font-size:.82rem; color:#8291a3; margin:0; }
+.preview-banner { display:flex; flex-direction:column; gap:.32rem; padding: .9rem 1.05rem; margin-bottom:1rem; background:#eaf5f5; border:1px solid #cee5e6; border-radius:11px; color:#235d6b; }
+.preview-banner strong { font-size:.84rem; }
+.preview-banner span { font-size:.77rem; line-height:1.5; color:#527d84; }
+.welcome-card { position:relative; padding: 1.6rem 1.5rem; background:linear-gradient(138deg,#eaf4fa 0%,#f9fbfd 69%); border:1px solid #d4e6f0; border-radius:15px; margin-bottom:1.2rem; overflow:hidden; }
+.welcome-card:after { content:'◈'; position:absolute; right:-22px; top:-31px; font-size:155px; line-height:1; color:rgba(38,123,149,.075); }
+.welcome-tag { font-size:.64rem; letter-spacing:.13em; color:#2e7893; font-weight:800; }
+.welcome-card h3 { font-size:1.3rem; letter-spacing:-.025em; color:#1b3c5a; margin:.55rem 0 .4rem; }
+.welcome-card p { max-width:410px; font-size:.84rem; line-height:1.65; color:#657f96; margin:0; }
+.mini-label { color:#7f8fa1; font-size:.67rem; font-weight:800; letter-spacing:.14em; margin: 1.1rem 0 .58rem; }
+.top-gap { margin-top:1.4rem; }
+.composer-label { font-weight:800; letter-spacing:.12em; color:#77889d; font-size:.68rem; margin: 1.35rem 0 .55rem; }
+.below-composer { font-size:.72rem; color:#98a4b1; margin-top:.65rem; line-height:1.5; }
+.stButton button { min-height:2.66rem; border:1px solid #d9e4ee; background:#fff; color:#284b68; border-radius:10px; text-align:left; font-weight:510; font-size:.82rem; box-shadow:0 1px 2px rgba(15,37,60,.015); transition: border-color .15s, background .15s, box-shadow .15s; }
+.stButton button:hover { border-color:#8db8c8; color:#1c6479; background:#f7fcfd; }
+.stButton button[kind="primary"] { background:#1e718a; border-color:#1e718a; color:#fff; }
+.stButton button[kind="primary"]:hover { background:#155e78; }
+.stButton button:focus-visible, [data-testid="stChatInput"] textarea:focus-visible { outline:3px solid #76b9d2; outline-offset:2px; }
+[data-testid="stChatInput"] { border:1px solid #ccdae6; border-radius:12px; background:white; }
+[data-testid="stChatMessage"] { background:white; border:1px solid #e0e9f1; border-radius:14px; padding:.65rem .8rem; margin-bottom:.75rem; }
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] p { font-size:.9rem; line-height:1.7; }
+.viewer-shell { border:1px solid #dce5ed; border-radius:15px; overflow:hidden; background:#fff; box-shadow:0 2px 9px rgba(25,47,76,.025); }
+.viewer-toolbar { padding:.83rem 1rem; border-bottom:1px solid #e5eaf1; display:flex; align-items:center; gap:.76rem; color:#3b536e; font-size:.79rem; }
+.viewer-dots { display:flex; gap:4px; }
+.viewer-dots i { width:7px; height:7px; border-radius:50%; background:#d6e2eb; }
+.viewer-dots i:first-child { background:#94b9c4; }
+.viewer-state { margin-left:auto; padding:.25rem .48rem; border-radius:5px; background:#f2f5f9; font-size:.62rem; font-weight:760; letter-spacing:.08em; color:#8495a6; }
+.viewer-empty { min-height:320px; padding:3.2rem 2rem 2.8rem; display:flex; flex-direction:column; align-items:center; justify-content:center; background:repeating-linear-gradient(0deg,#fcfdfe,#fcfdfe 31px,#f8fafc 31px,#f8fafc 32px); text-align:center; }
+.source-symbol { width:63px; height:63px; border-radius:18px; border:1px solid #cfe0e8; box-shadow:0 4px 12px rgba(36,83,104,.045); background:white; display:flex; justify-content:center; align-items:center; color:#47859b; font-size:2.4rem; margin-bottom:1.3rem; }
+.viewer-pretitle { letter-spacing:.14em; color:#6b97a6; font-size:.64rem; font-weight:800; }
+.viewer-empty h3 { color:#263c56; font-size:1.18rem; letter-spacing:-.03em; margin:.52rem 0 .42rem; }
+.viewer-empty p { font-size:.83rem; line-height:1.66; color:#8695a6; max-width:405px; margin:0; }
+.source-type-card { min-height:136px; padding:1.05rem 1.1rem; background:white; border:1px solid #e0e8f0; border-radius:12px; display:flex; flex-direction:column; gap:.25rem; }
+.source-type-icon { color:#257d90; font-size:1.4rem; line-height:1.15; margin-bottom:.25rem; }
+.source-type-card strong { color:#254660; font-size:.82rem; }
+.source-type-card small { color:#7d90a5; font-size:.76rem; }
+.source-type-foot { color:#a0acb9; font-size:.66rem; padding-top:.6rem; margin-top:auto; border-top:1px solid #edf1f5; }
+.inspection-rule { border-left:3px solid #76b3bf; padding:.55rem 1rem; margin-top:1.1rem; background:#f1f6f8; border-radius:0 9px 9px 0; }
+.inspection-rule span { font-size:.65rem; color:#39778a; font-weight:800; letter-spacing:.11em; }
+.inspection-rule p { color:#60798b; font-size:.78rem; line-height:1.65; margin:.3rem 0; }
+.page-indicator { text-align:center; padding:.52rem .15rem; font-size:.84rem; color:#567187; }
+.footer-note { border-top:1px solid #dde5ec; margin-top:2.7rem; padding-top:1.2rem; color:#9aa8b7; font-size:.63rem; letter-spacing:.12em; font-weight:700; text-align:center; }
+.footer-note span { padding:0 .5rem; }
+@media(max-width:920px) { .block-container { padding:1.2rem 1rem 2.5rem !important; } .masthead-title { font-size:2.2rem; } .viewer-empty { min-height:240px; padding:2.2rem 1rem; } .workflow-step { padding:.8rem .6rem; gap:.4rem; } .workflow-copy small { font-size:.67rem; } }
+@media(max-width:540px) { .block-container { padding:.8rem .65rem 2rem !important; } .masthead-title { font-size:1.85rem; } .masthead-description { font-size:.83rem; } .workflow-copy small { display:none; } .workflow-step { min-height:45px; } .pane-heading { padding:.7rem 0; } .status-secondary { display:none; } }

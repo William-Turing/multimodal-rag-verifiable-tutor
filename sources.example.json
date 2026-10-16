@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "id": "agents_textbook",
+      "type": "document",
+      "display_name": "Agents — Textbook (confirm matching edition)",
+      "path": "assets/Agents.pdf",
+      "aliases": ["PDF Document", "PDF Figure"]
+    },
+    {
+      "id": "agents_lecture",
+      "type": "video",
+      "display_name": "Agents — Lecture (confirm matching original)",
+      "path": "assets/Agents.mp4",
+      "aliases": ["Video Tutorial"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Versions constrained to broadly compatible Streamlit/LlamaIndex APIs.
+streamlit>=1.38,<2
+chromadb>=0.5,<2
+llama-index-core>=0.11,<1
+llama-index-vector-stores-chroma>=0.2,<1
+llama-index-embeddings-huggingface>=0.3,<1
+sentence-transformers>=3,<6
+# Avoid transformers 5.x: the legacy environment hit an optional torchvision import error.
+transformers==4.44.2
+huggingface-hub>=0.23,<1
+# Legacy SDK intentionally retained to preserve the original Gemini integration.
+google-generativeai>=0.8.3,<1
+PyMuPDF>=1.24,<2
+pillow>=10,<12
+python-dotenv>=1,<2
