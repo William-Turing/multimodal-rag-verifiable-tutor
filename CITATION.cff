@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the revised design preprint when discussing its research contribution, and cite the repository when reusing the software."
+title: "Multimodal RAG Tutor — Verifiable Learning Workspace"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Rongyu
+repository-code: "https://github.com/William-Turing/multimodal-rag-verifiable-tutor"
+preferred-citation:
+  type: generic
+  status: preprint
+  title: "Designing Temporally Grounded Multimodal Learning Interfaces for Verifiable Interaction"
+  authors:
+    - family-names: Wang
+      given-names: Rongyu
+  year: 2026
+  month: 10
+  doi: "10.5281/zenodo.23418230"
+  url: "https://doi.org/10.5281/zenodo.23418230"
+  notes: "Independent revised system and interaction-design preprint, 16 October 2026; preliminary version listed in AIED 2026 Workshop Spotlight Presentations II. This revision is not claimed as a reviewed proceedings paper."

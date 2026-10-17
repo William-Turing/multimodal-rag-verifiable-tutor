@@ -6,7 +6,9 @@ An evidence-first **Streamlit research prototype** that keeps the original Pytho
 
 **Core interaction:** User question → dense vector retrieval → Gemini answer + retrieved evidence → source chip → original PDF page / lecture video seek. **Retrieved sources are inspectable; the answer is not automatically fact-verified.**
 
-Paper context: [AIED 2026 AI–HCI–Learning Sciences Workshop program](https://extendedhorizon.com/aied2026ws-ai-hci-ls/program/). The revised preprint PDF was not supplied for this code update; do not invent a DOI, publication citation, or experiment results.
+**Research preprint (revised 16 October 2026):** [Zenodo DOI](https://doi.org/10.5281/zenodo.23418230) · [Read the eight-page PDF](paper/Wang_2026_Verifiable_Interaction_Revised_Preprint.pdf) · [LaTeX source](paper/latex/main.tex) · [Citation metadata](CITATION.cff) · [Paper and implementation notes](paper/README.md).
+
+**Workshop history:** An earlier version was listed in [AIED 2026 Workshop — Spotlight Presentations II](https://extendedhorizon.com/aied2026ws-ai-hci-ls/program/). This revised preprint is an **independent, unreviewed revision**, not a separately accepted AIED conference paper or a Springer LNCS proceedings article. The independent revised preprint has been archived on Zenodo with version DOI **[10.5281/zenodo.23418230](https://doi.org/10.5281/zenodo.23418230)**. This is a repository-issued preprint DOI, **not** a peer-reviewed proceedings DOI.
 
 ![UI Preview screenshot — no model requests or retrieved citations](screenshots/ui-preview.jpg)
 
@@ -147,7 +149,9 @@ Tests cover pure metadata validation, explicit source mapping, a non-destructive
 
 ## Reference
 
-**Research manuscript title:** *Designing Temporally Grounded Multimodal Learning Interfaces for Verifiable Interaction*. Workshop context as linked above. Add the final author list, manuscript URL, publication status and formal BibTeX only after checking the revised preprint and its approved public metadata.
+**Wang, R. (2026).** *Designing Temporally Grounded Multimodal Learning Interfaces for Verifiable Interaction.* Revised system and interaction-design preprint, 16 October 2026. Zenodo. [DOI](https://doi.org/10.5281/zenodo.23418230) · [PDF](paper/Wang_2026_Verifiable_Interaction_Revised_Preprint.pdf) · [BibTeX](paper/preprint.bib).
+
+The preliminary version appeared in the AIED 2026 Workshop Spotlight II program. The revised PDF is not represented here as a peer-reviewed proceedings publication. See [citation metadata](CITATION.cff). Version DOI: [10.5281/zenodo.23418230](https://doi.org/10.5281/zenodo.23418230). A DOI for the Zenodo preprint is not evidence of an additional peer-reviewed conference or journal publication. No arXiv identifier is claimed.
 
 ## License
 
